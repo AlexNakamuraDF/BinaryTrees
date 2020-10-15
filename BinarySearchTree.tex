@@ -1,0 +1,12 @@
+\documentclass[border=3mm]{standalone}
+\usepackage{forest}
+\begin{document}
+\tikzset{   forest node/.style = {align=center, inner sep=0pt, text centered,    font=\sffamily},  black_node/.style = {forest node, circle, white, font=\sffamily\bfseries, draw=black, fill=black,  text width=1.5cm},   red_node/.style = {forest node, circle, red, draw=red,    text width=1.5cm, very thick}, nil_node/.style = {forest node, rectangle, draw=black,     minimum width=0.5cm, minimum height=0.5em} }
+\begin{forest}
+for tree = {circle, draw, minimum size=4ex, inner sep=2pt, grow = south } 
+[13, black_node [7, black_node [5, black_node [2, black_node [1, black_node ]]]
+[12, black_node [8, black_node [9, black_node [11, black_node ]]]]]
+[16, black_node [15, black_node [14, black_node ]]
+[20, black_node [17, black_node [18, black_node ]]]]]
+\end{forest}
+\end{document}

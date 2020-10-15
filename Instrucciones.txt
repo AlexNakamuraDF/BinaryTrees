@@ -1,0 +1,22 @@
+El proyecto final consiste in implementar la estructura de un árbol rojo-negro que es un árbol auto-balanceado. La clase del árbol rojo-negro tendrá que ser heredada de una clase árbol binario de búsqueda, que a su vez será heredada de una clase árbol binario. En las clases madres pueden dejar funciones virtuales, pero las de árbol rojo-negro si tienen que estar implementadas. Las operaciones que tiene que tener son:
+- Insertar un nodo
+- Eliminar un nodo (dado como entrada)
+- Búsqueda en el árbol
+Pueden usar clases que hayan ya entregado en sus prácticas pero nada copiado de internet. Si retoman material de sus prácticas por favor díganlo en el Readme tradicional. 
+Como entrega les pido, además del código, un pequeño video donde hagan la ejecución de un par de ejemplos.
+
+Si alguien comenzó otro proyecto mándenme un correo por favor.
+
+De la STL pueden usar estructuras de datos básicas como listas ligadas, vector, cola, pila, pero no pueden usar árboles. 
+
+La fecha de entrega es el 12 de junio. 
+
+Saludos
+
+Algunas referencias (además del Capítulo 12 del Cormen gordo)
+El capítulo 12 del Cormen. También en geeks for geeks hay implementaciones y descripciones buenas. 
+- https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/
+- https://es.wikipedia.org/wiki/Árbol_rojo-negro
+- https://www.infor.uva.es/~cvaca/asigs/doceda/rojonegro.pdf
+- https://medium.com/@info.gildacademy/an-introduction-to-red-black-tree-2a13407abc6c
+- https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-binary-search-and-red-black-trees/
