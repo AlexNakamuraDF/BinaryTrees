@@ -1,5 +1,3 @@
-# Alex Nakamura Díaz Francés NUA:314283
-
 # Final project, Data Structures and Algorithms: Binary Trees
 
 ## Content
